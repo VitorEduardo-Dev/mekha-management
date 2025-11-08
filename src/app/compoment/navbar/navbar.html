@@ -1,14 +1,16 @@
 <nav class="w-full h-20 flex bg-[#FFF] items-center p-5">
-  <h1>Mekha</h1>
+  <div class="w-auto cursor-pointer bg-linear-to-tl from-zinc-600 to-stone-700 p-2 pl-6 pr-6">
+   <a [routerLink]="['/mekhalogin']"><h1 class="text-[2em] text-[#FFF] font-bold underline">Mekha</h1></a>
+  </div>
   <div class="h-full w-full flex justify-center items-center">
-    <ul class="w-200 flex gap-50 justify-center p-2 m-8">
-      <li class="cursor-pointer bg-[#000] text-[#FFF]">Giro de Peças</li>
-      <li class="cursor-pointer bg-[#000] text-[#FFF]">Listas de Peças</li>
-      <li class="cursor-pointer bg-[#000] text-[#FFF]">Estoquear Peças</li>
+    <ul class="w-220 flex gap-50 justify-center items-center p-2 m-8">
+      <li class="bg-linear-to-tl from-zinc-600 to-stone-700 transition ease-in-out hover:scale-105 hover:rounded-sm cursor-pointer bg-[#000] text-[#FFF] p-2 pl-4 pr-4">Giro de Peças</li>
+      <li class="bg-linear-to-tl from-zinc-600 to-stone-700 transition ease-in-out hover:scale-105 hover:rounded-sm cursor-pointer bg-[#000] text-[#FFF] p-2 pl-4 pr-4">Listas de Peças</li>
+      <li class="bg-linear-to-tl from-zinc-600 to-stone-700 transition ease-in-out hover:scale-105 hover:rounded-sm cursor-pointer bg-[#000] text-[#FFF] p-2 pl-4 pr-4">Estoquear Peças</li>
     </ul>
   </div>
 
-  <div>
-    <span>Conta</span>
+  <div class="w-auto cursor-pointer bg-linear-to-tl from-zinc-600 to-stone-700 p-2 pl-6 pr-6">
+    <span class="text-[#FFF] font-bold">Conta</span>
   </div>
 </nav>
